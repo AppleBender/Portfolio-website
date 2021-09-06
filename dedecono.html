@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/futuristic.jpg">
+
+  <!-- Packages -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/f92dff73c1.js" crossorigin="anonymous"></script>
+
+  <!-- Update these with your own fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+  <!-- Style sheets -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Portfolio website</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/img/techtim.png" alt="" class="logo__img">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link" tabindex="-1">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link" tabindex="-1">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link" tabindex="-1">About me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link" tabindex="-1">My Work</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <!-- Introfuction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      The title <strong>of my project</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Graduation circuits</p>
+    <img src="img/dedecono.jpg" alt="Binary code" class="intro__img">
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p>During my studies <strong>in 2020</strong>, me and my classmates began working on <strong>studying materials</strong> for students who are awaiting graduation. We tried to work out the project in a <strong>modern form of teaching.</strong></p>
+    <img src="img/dedecono.jpg" alt="" class="portfolio-item__image">
+    <p><a href="https://dedecono.eu/">Dedecono.eu</a> is primarily a platform for students of the Technical and Economics School Brno, Olomoucká, but I firmly believe that every enthusiast of programming or the network can find useful information from which they will be able to learn at least a little</p>
+    <p>We used <strong>WordPress</strong> and <strong>Colibri</strong> to create this project.</p>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:tomkansky@seznam.cz?subject=Feedback" class="footer__link">tomkansky@seznam.cz</a>
+    <ul class="social-list">
+      <li class="social-list__item"><a href="https://github.com/AppleBender" class="social-list__link"><i class="fab fa-github"></i></a></li>
+      <li class="social-list__item"><a href="https://www.facebook.com/tomas.kansky.395" class="social-list__link"><i class="fab fa-facebook"></i></a></li>
+      <li class="social-list__item"><a href="https://twitter.com/KanskyTomas" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+      <li class="social-list__item"><a href="https://www.linkedin.com/in/tomas-kansky/" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>

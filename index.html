@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/futuristic.jpg">
+
+  <!-- Packages -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/f92dff73c1.js" crossorigin="anonymous"></script>
+
+  <!-- Update these with your own fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+  <!-- Style sheets -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Portfolio website</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/img/techtim.png" alt="" class="logo__img">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link" tabindex="-1">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link" tabindex="-1">My Services</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link" tabindex="-1">About me</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link" tabindex="-1">My Work</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <!-- Introfuction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Tomáš Kanský</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Web developer</p>
+    <img src="img/me2.jpg" alt="Profesional photo of me." class="intro__img">
+  </section>
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <!-- Service -->
+      <div class="service">
+        <h3>Design + Development</h3>
+        <p>Responsive websites built for an optimal user experience that achieves your goals.</p>
+      </div>
+      <!-- Service -->
+      <div class="service">
+        <h3>WordPress</h3>
+        <p>Manage your website using the web's most popular content managment system.</p>
+      </div>
+      <!-- Service -->
+      <div class="service">
+        <h3>Backend</h3>
+        <p>Responsible for building the structure of a software application.</p>
+      </div>
+    </div>
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Web developer</p>
+    <div class="about-me__body">
+      <p>I’m a 20 years old design minded front-end developer. I am highly motivated and very imaginative by finding inspirations in everyday things, pushing my own boundaries and allowing myself to think out of the box.</p>
+      <p>I don't like to define myself by the work I've done. I define myself by the work I want to do. Skills can be taugh, personality is inherent. I prefer keep learning, continue challenging myself, and do interesting things that matter.</p>
+    </div>
+    <img src="img/me.jpg" alt="Third photo of someone" class="about-me__img">
+  </section>
+
+  <!-- My Work -->
+  <section class="my work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+    <div class="portfolio">
+      <!-- Portfolio Item -->
+      <a href="dedecono.html" class="portfolio__item">
+        <img src="img/dedecono.jpg" alt="dedecono.eu" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio Item -->
+      <a href="#work" class="portfolio__item" id="none" tabindex="-1">
+        <img src="" alt="" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio Item -->
+      <a href="#work" class="portfolio__item" id="none" tabindex="-1">
+        <img src="" alt="" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio Item -->
+      <a href="#work" class="portfolio__item" id="none" tabindex="-1">
+        <img src="" alt="" class="portfolio__img">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:tomkansky@seznam.cz?subject=Feedback" class="footer__link">tomkansky@seznam.cz</a>
+    <ul class="social-list">
+      <li class="social-list__item"><a href="https://github.com/AppleBender" class="social-list__link"><i class="fab fa-github"></i></a></li>
+      <li class="social-list__item"><a href="https://www.facebook.com/tomas.kansky.395" class="social-list__link"><i class="fab fa-facebook"></i></a></li>
+      <li class="social-list__item"><a href="https://twitter.com/KanskyTomas" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+      <li class="social-list__item"><a href="https://www.linkedin.com/in/tomas-kansky/" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </footer>
+
+  <!-- JavaScipt -->
+  <script src="js/index.js"></script>
+</body>
+</html>
